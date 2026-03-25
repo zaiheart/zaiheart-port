@@ -1,0 +1,178 @@
+
+body {
+    font-family:  "Inter", sans-serif;
+    color: #f5f5f5;
+    background-color: #1c1c1c;
+}
+
+header {
+    display: flex;
+}
+
+.zezo {
+    font-weight: bold;
+    padding: 9px;
+    font-size: 0.8rem;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 8px 8px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;       
+    width: 100%;               
+}
+
+
+nav {
+    font-size: 0.9rem;
+    display: flex;
+    padding: 9px;
+    background-color: #f5f5f5;
+    border-radius: 8px 8px;
+    gap: 24px;
+    a {
+        color: #0a0a0a;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    }
+
+.home {
+    padding-top: 50px;
+    height: 100vh;
+    background-image: url('./fotos/kab-fundo.png');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 20px;
+    border-radius: 5px 5px;
+}
+
+
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+h2 {
+    font-weight: normal;
+}
+
+/* VAI COMEÇAR A PUTARIA AUQI */
+
+.lista-container {
+    margin-top: 130px;
+    background-color: #181818; 
+    padding: 20px;
+    width: 100%;
+    max-width: 500px;
+    list-style: none; 
+}
+
+.item-lista {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.item-lista:last-child {
+    border-bottom: none; 
+}
+
+.item-lista span {
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.botao-link {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    padding: 8px 12px;
+    display: flex;
+    align-items: center;
+    gap: 8px; 
+    font-size: 14px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.botao-link:hover {
+    background-color: #ccc;
+}
+
+.icon-social {
+    width: 18px;  
+    height: 18px;
+    object-fit: contain;
+}
+
+/*       SEÇÃO sessão sla como escreve essabosta 2            */
+
+#serv {
+    font-family:  "Inter", sans-serif;
+    font-size: 5rem;
+ }
+#pin {
+    font-size: 0.7rm;
+    font-weight: lighter;
+}
+span {
+    color: rgb(35, 76, 189);
+    
+}
+
+.sec1 {
+    background-color: #1c1c1c;
+    padding: 100px 8%;
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+}
+
+.projetos1 {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 200px;
+}
+
+.fotos {
+    display: flex;
+    gap: 20px; 
+}
+
+.fotos img {
+    width: 250px; 
+    height: 350px;
+    object-fit: cover; 
+    border-radius: 2px;
+}
+.projetos2 .fotos img {
+    width: 400px;  
+    height: 250px; 
+    object-fit: cover;
+    border-radius: 3px;
+}
+
+
+.projetos2 .fotos {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+.projetos2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px; 
+}
