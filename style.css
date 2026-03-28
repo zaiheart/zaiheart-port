@@ -16,7 +16,9 @@ header {
     border: 1px solid rgb(255, 255, 255);
     border-radius: 8px 8px;
 }
-
+#zaio {
+    display: none;
+}
 header {
     display: flex;
     justify-content: space-between; 
@@ -175,4 +177,54 @@ span {
     justify-content: space-between;
     align-items: center;
     gap: 80px; 
+}
+
+
+/*responsividade*/
+
+@media (max-width: 768px) {
+
+    header {
+        display: flex;
+        flex-direction: column;
+        .zezo {
+            display: none;
+        }
+    }
+
+    .home {
+        justify-content: center;
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .lista-container {
+        margin-top: 50px;
+        width: 90%;
+    }
+
+    .projetos1, .projetos2 {
+        flex-direction: column;
+        gap: 40px;
+        text-align: center;
+    }
+
+    .projetos2 {
+        flex-direction: column-reverse;
+    }
+
+    .fotos {
+        flex-direction: column;
+        align-items: center;
+    }
+    .fotos img, 
+    .projetos2 .fotos img {
+        width: 100%;
+        max-width: 350px;
+        height: auto;
+    }
+    .sec1 {
+        padding: 50px 5%;
+        gap: 80px;
+    }
 }
